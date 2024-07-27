@@ -1,0 +1,33 @@
+<!--Caja de Destacados: Diseña una caja de destacados que incluya una imagen, un título y una breve descripción. Agrega estilos para resaltar la caja.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .cajaDestacada {
+            background-color: azure;
+            border: 2px solid;
+            padding: 12px;
+            text-align: center;
+        }
+        h2 {
+            color: brown;
+        }
+        p {
+            color: lightgrey;
+            text-align: justify;
+        }
+       
+    </style>
+    <title>Caja de Destacados </title>
+</head>
+<body>
+    <div class="cajaDestacada">
+        <img src="css_box_model.png" alt="">
+        <h2>JavaCript</h2>
+        <p>El CSS Box Model es un concepto fundamental en el diseño web que describe cómo se estructuran y se calculan los elementos en una página. Cada elemento en una página web se representa como una caja rectangular, que se compone de cuatro áreas: el contenido, el padding (relleno), el border (borde) y el margin (margen). El contenido es el área donde se muestra el texto y los gráficos, el padding es el espacio entre el contenido y el borde, el border es una línea alrededor del padding, y el margin es el espacio entre el borde del elemento y otros elementos o el borde de la página. Comprender el Box Model es crucial para el diseño y el ajuste preciso de los elementos en una página, ya que afecta cómo se calculan y se aplican los tamaños, los espaciados y las posiciones.</p>
+    </div>
+    
+</body>
+</html>

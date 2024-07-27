@@ -1,0 +1,41 @@
+<!--Diseño de lista: Crea una lista desordenada y otra ordenada en tu pagina, estiliza los elementos de la lista con diferentes colores y márgenes.-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        ol {
+            list-style-type: lower-roman;
+        }
+        /* Pares= odd*/
+        li:nth-child(odd) {
+            background-color: khaki;
+        }
+        /* Impares= even*/
+        li:nth-child(even) {
+            background-color: lightsteelblue;
+        }
+        ul {
+            list-style-type: circle;
+        }
+    </style>
+    <title>Diseño de Lista</title>
+</head>
+<body>
+    <h2>Tecnologias Front-End</h2>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Angular</li>
+    </ol>
+    <h2>Tecnologias Back-End</h2>
+    <ul>
+        <li>PHP</li>
+        <li>JSP</li>
+        <li>Java</li>
+        <li>Python</li>
+    </ul>
+</body>
+</html>

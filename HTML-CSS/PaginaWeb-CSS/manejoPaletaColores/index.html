@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title>Página WEB : CSS</title>
+  </head>
+  <body>
+    <header>
+      <h1>Fundamentos de CSS</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Tipos de Selectores</h2>
+        <ul>
+          <li>Selector universal (<strong>*</strong>)</li>
+          <li>
+            Selector de etiqueta o de elemento o de tipo
+            (<strong>nombreEtiqueta</strong>)
+          </li>
+          <li>
+            Selector de pseudo-elemento
+            (<strong>::nombrePseudoElemento</strong>)
+          </li>
+          <li>Selector de clase (<strong>.nombreClase</strong>)</li>
+          <li>
+            Selector de pseudo-clase (<strong>:nombrePseudoClase</strong>)
+          </li>
+          <li>Selector de atributo (<strong>[propiedad="valor"]</strong>)</li>
+          <li>Selector de ID (<strong>#id</strong>)</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Registro de Datos</h2>
+        <form>
+
+            <label for="txtnombre">Nombre:</label>
+            <input
+              type="text"
+              name="txtnombre"
+              id="txtnombre"
+              placeholder="Ingrese un nombre"
+              autocomplete="off"
+              required
+            />
+
+            <label for="txtemail">Email:</label>
+            <input
+              type="email"
+              name="txtemail"
+              id="txtemail"
+              placeholder="Ingrese un correo electrónico"
+              autocomplete="off"
+              required
+            />
+
+          <input type="submit" value="ENVIAR" />
+        </form>
+      </section>
+    </main>
+    <footer>
+        <p>&copy;Todos los Derechos Reservados</p>
+    </footer>
+  </body>
+</html>

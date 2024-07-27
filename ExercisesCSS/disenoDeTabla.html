@@ -1,0 +1,77 @@
+<!--Diseño de tabla: Crea una tabla basica con al menos 3 filas y 3 columnas, aplica estilos para resaltar las celdas del encabezado y alternar el fondo de las filas.
+
+        tr: fila de tabla
+        th: encabezado de columnas
+        td: dato de colomna de tabla
+        thead: encabezado de tabla
+        tbody: cuerpo de tabla
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            border: 5px solid rgba(14, 16, 91, 0.697);
+        }
+        th {
+            background-color: rgb(143, 240, 208);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            color: rgb(36, 125, 133);
+        }
+        tr:nth-child(odd) {
+            background-color: rgb(193, 242, 134);
+        }
+        tr:nth-child(odd) {
+            background-color: lightgoldenrodyellow;
+        }  
+        th td {
+            border:2px solid rgb(25, 113, 119);
+            padding: 3px;
+            text-align: left;
+        }
+
+    </style>
+    <title>Diseño de Tabla</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Edad</th>
+                <th>Nombre</th>
+                <th>Nacimiento</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>23</td>
+                <td>Mario</td>
+                <td>12/04/2001</td>
+            </tr>
+            <tr>
+                <td>54</td>
+                <td>Bertha</td>
+                <td>10/02/1970</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>Mario</td>
+                <td>12/04/1994</td>
+            </tr>
+            <tr>
+                <td>46</td>
+                <td>Pedro</td>
+                <td>27/05/1978</td>
+            </tr>
+            <tr>
+                <td>44</td>
+                <td>Maria</td>
+                <td>22/07/1980</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

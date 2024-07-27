@@ -1,0 +1,75 @@
+<!--Para el diseño web responsivo, las resoluciones de pantalla más comunes son:
+
+320 x 480 píxeles: Móviles pequeños.
+360 x 640 píxeles: Móviles estándar (como muchos smartphones modernos).
+768 x 1024 píxeles: Tablets (modo vertical).
+1024 x 768 píxeles: Tablets (modo horizontal).
+1280 x 800 píxeles: Pequeñas computadoras portátiles.
+1366 x 768 píxeles: Laptops estándar.
+1920 x 1080 píxeles: Desktops y laptops de alta resolución.
+Estas resoluciones ayudan a diseñar y probar páginas web para asegurarse de que se vean y funcionen bien en una variedad de dispositivos y tamaños de pantalla.
+-->
+<!--Las frameworks de CSS más conocidas y utilizadas son:
+Bootstrap: Una de las más populares, proporciona una amplia gama de componentes y utilidades para facilitar el desarrollo de sitios web responsivos y modernos.
+Foundation: Desarrollado por ZURB, es conocido por su flexibilidad y potentes características para diseñar sitios web responsivos.
+Bulma: Un framework moderno basado en Flexbox que es fácil de usar y personalizar, con una sintaxis simple y clara.
+Tailwind CSS: Un framework utilitario que permite un alto grado de personalización mediante clases de utilidad, promoviendo un enfoque diferente al diseño CSS tradicional.
+Materialize: Basado en el diseño de Material Design de Google, proporciona componentes y estilos que siguen las directrices de diseño de Google.
+Semantic UI: Enfocado en la legibilidad del código y la facilidad de uso, proporciona una amplia gama de componentes que se integran fácilmente.
+Pure CSS: Creado por Yahoo, es un conjunto mínimo de módulos CSS que se pueden utilizar para proyectos web, ofreciendo una solución ligera y modular.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .seccion-principal {
+            padding: 20px;
+            text-align: center;
+        }
+        @media screen and (max-width: 767px) {
+            .seccion-principal {
+                background-color: rgb(192, 217, 225);
+                padding: 20px;
+                text-align: left;
+        }
+        }
+        @media screen and (min-width: 768px) {
+            .seccion-principal {
+                background-color: rgb(32, 156, 145);
+            }
+        }
+        img {
+            width: 100%;
+        }
+        p {
+            text-align: justify;
+        }
+        .seccion-normal {
+            padding: 20px;
+            text-align: center;
+        }
+        .tres-columnas {
+            width: 32%;
+            
+        }
+    </style>
+    <title>Media Query</title>
+</head>
+<body>
+    <!--MediaQuery-->
+    <section class="seccion-principal">
+        <h2>Ciberseguridad</h2>
+        <p>La ciberseguridad es la práctica de proteger sistemas, redes y programas de ataques digitales malintencionados. Estos ataques suelen tener como objetivo acceder, modificar o destruir información confidencial, extorsionar a los usuarios o interrumpir la continuidad de los servicios. La ciberseguridad abarca diversas tecnologías, procesos y controles diseñados para proteger los activos digitales y garantizar la confidencialidad, integridad y disponibilidad de la información.</p>
+        <img src="ciberseguridad.png" alt="ciberseguridad">
+    </section >
+
+    <section class="seccion-normal">
+        <img class="tres-columnas" src="ciberseguridad.png" alt="ciberseguridad">
+        <img class="tres-columnas" src="ciberseguridad.png" alt="ciberseguridad">
+        <img class="tres-columnas" src="ciberseguridad.png" alt="ciberseguridad">
+    </section>
+</body>
+</html>
+

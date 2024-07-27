@@ -1,0 +1,51 @@
+<!--Lista desplegable: Implementa una lista desplegable (dropdown) con al menos tres opciones. Aplica estilos para mejorar la apariencia.-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form {
+            background-color: rgb(244, 238, 229);
+            /*display: flex;*/
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 24px;
+
+        }
+
+        select {
+            font-size: 16px;
+            padding: 16px;
+            border-radius: 5px;
+
+
+        }
+    </style>
+    <title>Lista Despegablet</title>
+</head>
+
+<body>
+
+    <form action="">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="contraseña">
+        <br>
+
+        <label for="contraseña">contraseña</label>
+        <input type="password" name="contraseña" id="contraseña">
+        <br>
+
+        <label for="deportes">Selecciona tu deporte favorito</label>
+        <select name="deportes" id="deportes" required>
+            <option value="seleccione">Seleccione ...</option>
+            <option value="futbol">Fútbol</option>
+            <option value="baloncesto">Baloncesto</option>
+            <option value="natacion">Natación</option>
+        </select>
+    </form>
+
+</body>
+
+</html>
